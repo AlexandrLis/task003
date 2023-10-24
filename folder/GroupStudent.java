@@ -1,3 +1,5 @@
+package folder;
+
 public class GroupStudent implements Comparable<GroupStudent>{
     
     private int groupNumber;
@@ -25,3 +27,4 @@ public class GroupStudent implements Comparable<GroupStudent>{
         return "\nНомер группы: " + groupNumber + ", имя: " + firstName + "\t" + ", фамилия: " + lastName;
     }
 }
+
